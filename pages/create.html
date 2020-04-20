@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Create Posts | Edit Posts</title>
+  </head>
+  <body>
+    <a class="btnGoBack" href="../index.html">Go back</a>
+    <div class="container">
+      <div class="navBar">
+        <ul class="nav">
+          <li class="nav-item center">Welcome, let's start posting!</li>
+        </ul>
+      </div>
+      <div class="createBody">
+        <img class="imgHeader" />
+        <div class="title">
+          <label for="inputTitle">Title</label>
+          <input type="text" id="inputTitle" placeholder=" Insert Title..." />
+        </div>
+        <div class="inputSubTitle">
+          <label for="subTitle">Subtitle</label>
+          <input
+            type="text"
+            id="inputSubTitle"
+            placeholder=" Insert Subtitle"
+          />
+        </div>
+        <div class="inputImage">
+          <label for="subTitle">Image</label>
+          <input type="text" id="inputImage" placeholder=" Insert full URL" />
+        </div>
+        <div class="author">
+          <label for="inputAuthor">Author</label>
+          <br />
+          <select name="inputAuthor" id="inputAuthor">
+            <option disabled selected hidden class="authorOptions"
+              >Choose One...</option
+            >
+          </select>
+        </div>
+        <div class="date">
+          <label for="inputDate">Date</label>
+          <input type="text" id="inputDate" placeholder=" Insert Date" />
+        </div>
+        <div class="txtArealbl">
+          <label for="postBodyText">Post:</label>
+        </div>
+        <div class="postBodyText">
+          <textarea
+            name="textPostArea"
+            id="textPostArea"
+            cols="100"
+            rows="25"
+            placeholder="  Your post goes here..."
+          ></textarea>
+        </div>
+        <div>
+          <button id="btnSubmitPost">Submit Post</button>
+          <label class="lblAlert"></label>
+        </div>
+        <div class="tagsBarEdit">
+          <label for="inputTags">Tags</label>
+          <input
+            type="text"
+            id="inputTags"
+            placeholder=" travel,food,inspiration"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="../script.js"></script>
+    <script type="module" src="../js/createEdit.js"></script>
+  </body>
+</html>

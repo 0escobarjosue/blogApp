@@ -1,0 +1,149 @@
+body {
+  font-family: "Baloo Bhaina 2", cursive;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.navBar {
+  background-color: teal;
+  background-image: url(https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 500%;
+  display: center;
+}
+.welcomeBanner {
+  list-style-type: none;
+  background-color: rgba(105, 92, 79, 0.507);
+}
+.nav {
+  text-align: center;
+}
+
+.navItem {
+  padding: 0px;
+}
+.menuUl {
+  list-style-type: none;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.lastThreePosts {
+  text-align: center;
+  width: 100%;
+}
+
+.imgContainer {
+  width: 100%;
+  display: center;
+}
+.imgClass {
+  width: 80%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-top: 50px;
+}
+.postText {
+  display: block;
+}
+.tagP {
+  padding-bottom: 10px;
+}
+.postCard {
+  box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.tagBarHead {
+  text-align: center;
+}
+.tagBar {
+  text-align: center;
+}
+.tagBarList {
+  list-style-type: none;
+  display: inline-block;
+}
+input {
+  display: flex;
+}
+label {
+  padding-bottom: 25px;
+}
+#postBodyText {
+  height: 100px;
+  width: 50%;
+}
+.createBody {
+  justify-content: center;
+}
+.tagBarList {
+  background-color: blue;
+}
+#textPostArea {
+  display: flex;
+}
+.btnGoBack {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(0, 60, 88);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5%;
+}
+.newPostBtn {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(0, 60, 88);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5%;
+}
+input {
+  border-color: rgb(7, 106, 255);
+  padding-bottom: 5px;
+}
+label {
+  font-family: "Baloo Bhaina 2", cursive;
+  font-weight: 600;
+  color: rgb(6, 0, 94);
+}
+textarea {
+  border-color: rgb(7, 106, 255);
+  border-radius: 3%;
+}
+select {
+  border-color: rgb(7, 106, 255);
+}
+.container {
+  display: center;
+}
+.postText {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349);
+}
+i {
+  font-size: 25em;
+  color: rgb(161, 1, 1);
+}
+.cardh3 {
+  font-size: 25em;
+}
